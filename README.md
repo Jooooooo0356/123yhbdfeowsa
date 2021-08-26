@@ -1,17 +1,13 @@
 # 123yhbdfeowsa
 
 please add below values in the lambda_function.py
+subnetid = <subnetid>
+acccountid = <your accountid>
+iamrole = <your iam role>
+  
 
-
-
-
-
-
-
-
-
-
-
+  
+-------------------------------------------------------------------------------------------------------------------------
 How would you perform upgrade software deployed and minimise downtime
 1.	Test the software after the upgrade too see any potential error is happened during and after the updates
 2.	After the testing is done, create an second pipeline for the software upgrade (create new instances).
