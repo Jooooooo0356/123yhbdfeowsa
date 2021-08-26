@@ -22,9 +22,16 @@ sed -i.bak -E 's#^(seeds[[:space:]]+=[[:space:]]+).*$#\1"8dc1863d1d23cf9ad7cbea2
 sed -i.bak -E 's#^(create_empty_blocks_interval[[:space:]]+=[[:space:]]+).*$#\1"5s"#' ~/.chain-maind/config/config.toml
 ./chain-maind start
 """
+
+'''
+Please add your values in here
+'''
 subnetid = <subnetid>
 acccountid = <your accountid>
 iamrole = <your iam role>
+'''
+Please add your values in here
+'''
 
 iamarn = arn:aws:iam::acccountid:instance-profile/iamrole
 
