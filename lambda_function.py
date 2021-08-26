@@ -27,7 +27,6 @@ acccountid = <your accountid>
 iamrole = <your iam role>
 
 iamarn = arn:aws:iam::acccountid:instance-profile/iamrole
-subnetid = <subnetid>
 
 def lambda_handler(event, context):
 
