@@ -1,9 +1,10 @@
 # 123yhbdfeowsa
 
 please add below values in the lambda_function.py
-subnetid = <subnetid>
-acccountid = <your accountid>
-iamrole = <your iam role>
+
+1. subnetid
+2. acccountid
+3. iamrole
   
 
   
